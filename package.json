@@ -1,0 +1,30 @@
+{
+  "name": "chirpy",
+  "version": "1.0.0",
+  "description": "A Mock Twitter App using Express & Sequalize",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TParksJr/Chirpy.git"
+  },
+  "keywords": [
+    "Express",
+    "Sequalize"
+  ],
+  "author": "Tyson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TParksJr/Chirpy/issues"
+  },
+  "homepage": "https://github.com/TParksJr/Chirpy#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.0"
+  }
+}
