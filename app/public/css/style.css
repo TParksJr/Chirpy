@@ -1,0 +1,47 @@
+fieldset { 
+    display: block;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 0.35em;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 2px groove (internal value);
+}
+
+.jumbotron {
+    background-color: #1da1f2;
+    color: white;
+    font-size: 300%;
+}
+
+h1 {
+    color: white;
+    font-size: 200%;
+}
+
+h2 {
+    color: #1da1f2;
+    font-size: 200%;
+}
+
+label {
+    color: #1da1f2;
+    font-size: 150%;
+}
+
+.cool-font {
+    font-family: Shrikhand, cursive;
+}
+
+input, textarea, #submit {
+    margin: 20px;
+}
+
+#submit {
+    color: #1da1f2;
+    background-color: white;
+    border-color: #1da1f2;
+    border-style: solid;
+    border-width: 2px;
+}
