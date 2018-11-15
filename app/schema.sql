@@ -4,7 +4,7 @@ USE chirpy;
 
 CREATE TABLE chirps (
 id INT NOT NULL AUTO_INCREMENT,
-author VARCHAR(100) NOT NULL,
+name VARCHAR(100) NOT NULL,
 chirp VARCHAR(300),
 time TIMESTAMP NOT NULL,
 primary key (id)

@@ -11,10 +11,14 @@ var Chirp = sequelize.define("chirp", {
     timeStamp: {
       type: Sequelize.DATE
     }
-  }, {
-    timestamps: false
 });
   
-Chirp.sync();
+Chirp.sync({force: true}).then(function() {
+  return Chirp.create({
+    name: 'John Doe',
+    chirp: 'This is a test Chirp',
+    timeStamp: new Date()
+  });
+});
   
 module.exports = Chirp;

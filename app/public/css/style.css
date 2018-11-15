@@ -1,14 +1,6 @@
-fieldset { 
-    display: block;
-    margin-left: 2px;
-    margin-right: 2px;
-    padding-top: 0.35em;
-    padding-bottom: 0.625em;
-    padding-left: 0.75em;
-    padding-right: 0.75em;
-    border: 2px groove (internal value);
+body {
+    background-image: url("../images/cloudy-day.png")
 }
-
 .jumbotron {
     background-color: #1da1f2;
     color: white;
@@ -38,10 +30,41 @@ input, textarea, #submit {
     margin: 20px;
 }
 
-#submit {
+#submit,
+.chirp {
     color: #1da1f2;
     background-color: white;
     border-color: #1da1f2;
     border-style: solid;
     border-width: 2px;
+}
+.chirp {
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #2f4f4f;
+    padding: 5px;
+    margin: 10px;
+}
+#submit:hover {
+    color: white;
+    background-color: #1da1f2;
+    border-color: #1da1f2;
+    border-style: solid;
+    border-width: 2px;
+}
+#form,
+#chirpContainer {
+    background-color: white;
+    border: 2px solid #1da1f2;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #2f4f4f;
+    padding: 5px;
+    margin: 10px 10px 20px 10px;
+}
+.form-control {
+    width: 90%;
+}
+@media screen and (max-width: 420px) {
+    h1 {
+        font-size: 100%;
+    }
 }

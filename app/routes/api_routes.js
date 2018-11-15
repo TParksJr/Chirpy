@@ -9,9 +9,9 @@ module.exports = function (app) {
 
     app.post("/api/new", function (req, res) {
         Chirp.create({
-            author: req.body.author,
-            body: req.body.body,
-            created_at: req.body.created_at
+            name: req.body.name,
+            chirp: req.body.chirp,
+            time: req.body.timeStamp
         }).then(function(results) {
             res.status(200).end();
         });
