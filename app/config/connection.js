@@ -1,8 +1,8 @@
 var Sequelize = require("sequelize");
 
-var sequelize = new Sequelize("chirpy", "root", "root", {
-  host: "localhost",
-  port: 8889,
+var sequelize = new Sequelize("xlm2x5upd3pn7qns", "czmf03hi03n63ibp", "iem3bgjqonw5c1n9", {
+  host: "q57yawiwmnaw13d2.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+  port: 3306,
   dialect: "mysql",
   pool: {
     max: 5,

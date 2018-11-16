@@ -13,12 +13,6 @@ var Chirp = sequelize.define("chirp", {
     }
 });
   
-Chirp.sync({force: true}).then(function() {
-  return Chirp.create({
-    name: 'John Doe',
-    chirp: 'This is a test Chirp',
-    timeStamp: new Date()
-  });
-});
+Chirp.sync({force: true});
   
 module.exports = Chirp;
